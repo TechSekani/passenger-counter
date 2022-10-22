@@ -1,0 +1,93 @@
+@font-face{
+    font-family: josefin;
+    src: url(JosefinSans-VariableFont_wght.ttf);
+}
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: josefin;
+    text-align: center;
+}
+
+body{
+    height: 93vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/BRT-Bus-1062x598.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+#wrapper{
+    width: 30%;
+    height: 60vh;
+    display: block;
+    margin:40px auto;
+
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+button{
+    width: 60%;
+    height: 6vh;
+    border-radius: 10px;
+    border: 1px solid #444343;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#btn{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#increment-btn{
+    width: 45%;
+    background-color: green;
+}
+
+#decrement-btn{
+    background-color: transparent;
+    width: 45%;
+    border: 1px solid #000;
+}
+
+#decrement-btn:hover{
+    background-color: green;
+}
+
+#save-btn{
+    display: block;
+    margin: 30px auto;
+    background-color: blue;
+}
+
+#save-btn:hover{
+    border:3px groove rgb(40, 40, 114);
+}
+
+#save-el{
+    font-weight: 600;
+    font-size: large;
+    margin: 30px;
+}
